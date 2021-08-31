@@ -1,0 +1,37 @@
+.member__page {
+    width: 800px;
+    background-color: white;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.member__form {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.member__form-group {
+    width: 500px;
+    padding: 15px;
+}
+
+.member__form-group input {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-top: 15px;
+    border: solid 1px rgb(180, 180, 180);
+    background-color: white;
+}
+
+.member__button {
+    background-color: #ffd61e;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 15px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,67 @@
+.addbook__container {
+    width: 950px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.addbook__page {
+    background-color: white;
+    display: flex;
+    padding: 50px;
+}
+
+.addbook__form {
+    width: 500px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.addbook__form-group {
+    width: 500px;
+    margin-top: 10px;
+}
+
+.addbook__form-group input {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-top: 15px;
+    border: solid 1px rgb(180, 180, 180);
+    background-color: white;
+}
+
+.addbook__form-group textarea {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-top: 15px;
+    border: solid 1px rgb(180, 180, 180);
+    background-color: white;
+}
+
+.addbook__button {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.addbook__image {
+    border: solid 1px rgb(180, 180, 180);
+    width: 150px;
+    height: 110px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.select__category {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 15px;
+    outline: none;
+}

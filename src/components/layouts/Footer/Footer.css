@@ -1,0 +1,32 @@
+.Footer {
+    margin-top: 50px;
+    background-color: #868583;
+    color: white;
+    width: 100%;
+}
+
+.Footer__details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer__details h3 {
+    text-transform: uppercase;
+}
+
+.Footer__details a {
+    padding: 0px 10px 0px 0px;
+    color: white;
+}
+
+.copyright__footer {
+    border-top: solid 1px rgb(165, 163, 163);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.copyright__footer p {
+    width: fit-content;
+    margin-left: 100px;
+    color: white;
+}

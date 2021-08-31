@@ -1,0 +1,64 @@
+.body__container {
+  display: flex;
+}
+.side__navbar {
+  width: 250px;
+  margin-left: 150px;
+  margin-top: 145px;
+  background-color: white;
+
+  height: fit-content;
+}
+.side__navbar-image {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.side__navbar-book {
+  display: flex;
+  margin-bottom: 10px;
+}
+.side__navbar-book-image {
+  width: 100px;
+  height: 100px;
+}
+.side__navbar-book-image img {
+  width: 50px;
+  height: 100px;
+}
+.side__navbar-book-details {
+  margin-left: 10px;
+}
+.side__navbar-book-details h2 {
+  font-size: 14px;
+}
+.side__navbar-book-details p {
+  font-size: 14px;
+}
+
+.side__navbar-button {
+  display: block;
+  background-color: #ffd61e;
+  padding: 10px 15px;
+  margin-top: 10px;
+  float: right;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.side__navbar-blog {
+  border-top: solid 1px rgb(243, 239, 239);
+  margin-top: 80px;
+}
+
+.side__navbar-blog h2 {
+  font-size: 14px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+.side__navbar-blog p {
+  font-size: 12px;
+  margin-left: 30px;
+}

@@ -1,0 +1,107 @@
+.book__page {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.featured__books {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+.featured__books-title {
+    text-transform: uppercase;
+    border-bottom: solid 1px rgb(180, 180, 180);
+    padding-bottom: 20px;
+}
+
+.featured__books-form {
+    width: 300px;
+    margin-left: 600px;
+}
+
+.featured__books-form label {
+    padding: 10px 15px;
+}
+
+.featured__books-form select {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.featured__books-form option {
+    width: 200px;
+    padding: 30px;
+    border: none;
+    background-color: white;
+}
+
+.book__card {
+    width: 260px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.image__container {
+    height: auto;
+    width: 260px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.book__cover {
+    height: 250px;
+}
+
+.book__title {
+    width: fit-content;
+    font-size: var(--h2-font-size);
+    color: black;
+}
+
+.book__description {
+    border-bottom: solid 1px rgb(202, 202, 202);
+    width: 200px;
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.book__card button {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.featured__books-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: white;
+    padding: 8px 16px;
+    border: solid 1px #ddd;
+    background-color: black;
+}
+
+.pagination a.active {
+    background-color: #ffd61e;
+    color: black;
+}

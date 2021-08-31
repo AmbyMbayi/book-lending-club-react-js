@@ -1,0 +1,55 @@
+.Members__title {
+  margin-left: 500px;
+  font-weight: 900;
+}
+
+.Members__title__button {
+  color: white;
+  background-color: var(--first-color);
+  border: none;
+  margin-left: 1123px;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  top: -30px;
+}
+table {
+  width: 100%;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+
+  display: inline;
+}
+
+th {
+  height: 30px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  text-align: center;
+  height: 70px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+.status1 {
+  background-color: yellow;
+  border: none;
+  margin-right: 20px;
+}
+
+.status2 {
+  background-color: red;
+  border: none;
+  margin-right: 20px;
+}
+.Members__table {
+  background-color: white;
+  margin-left: 400px;
+  padding: 20px;
+  width: 800px;
+  justify-content: space-around;
+}

@@ -1,0 +1,9 @@
+.category__delete-button {
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}

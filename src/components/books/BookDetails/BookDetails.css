@@ -1,0 +1,41 @@
+.book__details {
+  display: flex;
+
+  width: 900px;
+  margin-top: 100px;
+  margin-left: 300px;
+  border-top: solid 1px rgb(201, 200, 200);
+  padding-top: 40px;
+}
+.book__title {
+  font-size: var(--h2-font-size);
+}
+.book__image {
+  width: 300px;
+  height: 400px;
+}
+
+.book__info {
+  margin-left: 50px;
+  width: 500px;
+}
+.book__info button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.book__form-group input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.book__info p {
+  line-height: 25px;
+}

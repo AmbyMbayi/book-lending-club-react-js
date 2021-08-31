@@ -1,0 +1,43 @@
+.user__information {
+    width: 800px;
+    margin-top: 150px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.user__header {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.user__profile a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: white;
+    display: block;
+    color: black;
+}
+
+.user__history a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: white;
+    display: block;
+    color: black;
+    margin-top: 20px;
+}
+
+.user__button {
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.user__button a {
+    color: black;
+}

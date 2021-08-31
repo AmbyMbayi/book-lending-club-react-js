@@ -1,0 +1,116 @@
+.login__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  width: fit-content;
+  margin-left: 100px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.login__form {
+  width: 850px;
+  padding: 20px;
+  background-color: white;
+  margin-left: 100px;
+}
+.login__form-group {
+  padding: 15px;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.login__form-group label {
+  padding: 10px 0px;
+  display: inline;
+
+  margin-right: 10px;
+}
+.login__form-group input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: solid 1px rgb(180, 180, 180);
+  background-color: white;
+  outline: none;
+}
+.show__button {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  float: right;
+  display: block;
+  position: relative;
+  top: -36px;
+  cursor: pointer;
+}
+.login__button {
+  border: none;
+  padding: 10px 35px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ffd61e;
+  margin-top: 20px;
+  width: fit-content;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.login__form a {
+  color: black;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.signup__link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 1px rgb(212, 210, 210);
+  cursor: pointer;
+}
+.signup__link a:hover {
+  color: #ffd61e;
+}
+
+.body__container {
+  display: flex;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .login__form{
+    
+    width: 500px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+  .login__form {
+    width: 850px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 100px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  
+}

@@ -1,0 +1,46 @@
+.categories__page {
+    margin-left: 100px;
+}
+
+.categories__list {
+    width: 1050px;
+    background-color: white;
+    padding: 20px;
+}
+
+.category__search {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 1px rgb(180, 180, 180);
+    background-color: white;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.category__item {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.categories__list li {
+    list-style: none;
+}
+
+.category-add__button {
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 120px;
+    text-align: center;
+    float: right;
+    font-size: 14px;
+}

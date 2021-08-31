@@ -1,0 +1,79 @@
+.profile__body {
+    width: 850px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.profile__page {
+    width: 800px;
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    background-color: white;
+}
+
+.profile__header {
+    text-transform: uppercase;
+    width: fit-content;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.profile__image {
+    height: 150px;
+    width: 150px;
+    margin-right: 80px;
+}
+
+.profile__form-group {
+    width: 400px;
+    padding: 15px;
+}
+
+.profile__form-group input {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-top: 15px;
+    border: solid 1px rgb(180, 180, 180);
+    background-color: white;
+}
+
+.show__button {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    border: none;
+    top: -39px;
+}
+
+.submit__button {
+    background-color: #ffd61e;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    border: none;
+    margin-right: -80px;
+}
+
+.profile__links {
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.profile__links a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.profile__links a:hover {
+    color: #ffd61e;
+}

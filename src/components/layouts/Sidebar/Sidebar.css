@@ -1,0 +1,28 @@
+/*sidebar*/
+
+.sidebar {
+    width: 200px;
+    height: 500px;
+    background-color: grey;
+}
+
+.sidebar__links {
+    padding-top: 20px;
+}
+
+.sidebar__links a {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: white;
+}
+
+.sidebar__links a:hover {
+    background-color: rgb(110, 108, 108);
+}
+
+.page__container {
+    display: flex;
+}
